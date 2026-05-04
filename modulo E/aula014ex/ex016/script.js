@@ -28,7 +28,7 @@ function contar() {
         res.innerHTML += ` ${c} \u{1F449}`;
       }
     } else {
-      //Contagem regressiva
+      //Contagem decrecente
       for (var c = i; c >= f; c -= p) {
         res.innerHTML += ` ${c} \u{1F449}`;
       }
